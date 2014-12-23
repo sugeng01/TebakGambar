@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sugengk.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KeduaActivity"
+            android:label="@string/title_activity_kedua" >
+        </activity>
+        <activity
+            android:name=".KetigaActivity"
+            android:label="@string/title_activity_ketiga" >
+        </activity>
+        <activity
+            android:name=".KeempatActivity"
+            android:label="@string/title_activity_keempat" >
+        </activity>
+        <activity
+            android:name=".KelimaActivity"
+            android:label="@string/title_activity_kelima" >
+        </activity>
+        <activity
+            android:name=".KeenamActivity"
+            android:label="@string/title_activity_keenam" >
+        </activity>
+        <activity
+            android:name=".KetujuhActivity"
+            android:label="@string/title_activity_ketujuh" >
+        </activity>
+        <activity
+            android:name=".KedelapanActivity"
+            android:label="@string/title_activity_kedelapan" >
+        </activity>
+        <activity
+            android:name=".KesembilanActivity"
+            android:label="@string/title_activity_kesembilan" >
+        </activity>
+        <activity
+            android:name=".KesepuluhActivity"
+            android:label="@string/title_activity_kesepuluh" >
+        </activity>
+        <activity
+            android:name=".Finishctivity"
+            android:label="@string/title_activity_finishctivity" >
+        </activity>
+    </application>
+
+</manifest>
